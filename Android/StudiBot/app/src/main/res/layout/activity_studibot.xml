@@ -49,13 +49,6 @@
             android:backgroundTint="#ffca28"
             android:layout_marginLeft="10dp" />
 
-        <ToggleButton
-            android:text="ToggleButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/toggleButton2"
-            android:backgroundTint="@android:color/holo_orange_dark" />
-
         <Button
             android:text=""
             android:layout_width="wrap_content"
@@ -63,6 +56,15 @@
             android:id="@+id/button"
             tools:background="@drawable/play"
             android:layout_marginLeft="150dp" />
+
+        <ToggleButton
+            android:text="ToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggleButton2"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 
 </RelativeLayout>
